@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ylb.MyTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\java\yinglibao\work\micr-common\target\test-classes;D:\java\yinglibao\work\micr-common\target\classes;D:\java\maven\maven_repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;D:\java\maven\maven_repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\java\maven\maven_repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;D:\java\maven\maven_repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\java\maven\maven_repository\com\alibaba\fastjson\1.2.51\fastjson-1.2.51.jar;D:\java\maven\maven_repository\io\jsonwebtoken\jjwt-api\0.11.2\jjwt-api-0.11.2.jar;D:\java\maven\maven_repository\io\jsonwebtoken\jjwt-impl\0.11.2\jjwt-impl-0.11.2.jar;D:\java\maven\maven_repository\io\jsonwebtoken\jjwt-jackson\0.11.2\jjwt-jackson-0.11.2.jar;D:\java\maven\maven_repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;D:\java\maven\maven_repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;D:\java\maven\maven_repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;D:\java\maven\maven_repository\junit\junit\4.13.2\junit-4.13.2.jar;D:\java\maven\maven_repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;D:\java\maven\maven_repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\XIAO&apos;Z~1\AppData\Local\Temp\surefire7105049923867939659\surefirebooter6767489936947225230.jar C:\Users\xiao&apos;zhi&apos;da\AppData\Local\Temp\surefire7105049923867939659 2023-07-14T15-17-32_530-jvmRun1 surefire8149146161412002361tmp surefire_05269138687755459184tmp"/>
+    <property name="surefire.test.class.path" value="D:\java\yinglibao\work\micr-common\target\test-classes;D:\java\yinglibao\work\micr-common\target\classes;D:\java\maven\maven_repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;D:\java\maven\maven_repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\java\maven\maven_repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;D:\java\maven\maven_repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\java\maven\maven_repository\com\alibaba\fastjson\1.2.51\fastjson-1.2.51.jar;D:\java\maven\maven_repository\io\jsonwebtoken\jjwt-api\0.11.2\jjwt-api-0.11.2.jar;D:\java\maven\maven_repository\io\jsonwebtoken\jjwt-impl\0.11.2\jjwt-impl-0.11.2.jar;D:\java\maven\maven_repository\io\jsonwebtoken\jjwt-jackson\0.11.2\jjwt-jackson-0.11.2.jar;D:\java\maven\maven_repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;D:\java\maven\maven_repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;D:\java\maven\maven_repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;D:\java\maven\maven_repository\junit\junit\4.13.2\junit-4.13.2.jar;D:\java\maven\maven_repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;D:\java\maven\maven_repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\xiao&apos;zhi&apos;da"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Java\jdk8\jre"/>
+    <property name="basedir" value="D:\java\yinglibao\work\micr-common"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\XIAO&apos;Z~1\AppData\Local\Temp\surefire7105049923867939659\surefirebooter6767489936947225230.jar"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk8\jre\lib\resources.jar;D:\Java\jdk8\jre\lib\rt.jar;D:\Java\jdk8\jre\lib\sunrsasign.jar;D:\Java\jdk8\jre\lib\jsse.jar;D:\Java\jdk8\jre\lib\jce.jar;D:\Java\jdk8\jre\lib\charsets.jar;D:\Java\jdk8\jre\lib\jfr.jar;D:\Java\jdk8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="xiao&apos;zhi&apos;da"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\java\maven\maven_repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\XIAO&apos;Z~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="D:\java\yinglibao\work\micr-common"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\jdk-19.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\java\Tomcat\tomcat\apache-tomcat-10.0.20\bin;D:\java\maven\apache-maven-3.6.3\bin;D:\java\vx小程序\微信web开发者工具\dll;D:\java\g;\bin;D:\java\go\bin;D:\java\git\Git\cmd;D:\java\goworkspace;D:\java\jdk-19.0.2\jre\bin;D:\java\node\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\xiao&apos;zhi&apos;da\AppData\Local\Microsoft\WindowsApps;D:\java\go\bin;D:\java\vscode\Microsoft VS Code\bin;C:\Users\xiao&apos;zhi&apos;da\AppData\Local\GitHubDesktop\bin;C:\Users\xiao&apos;zhi&apos;da\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\java\maven\maven_repository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test01" classname="com.ylb.MyTest" time="0.001"/>
+</testsuite>

@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: micr-web
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  redis:
+    host: 192.168.152.131
+    port: 6379
+server:
+  port: 8000
+  servlet:
+    context-path: /api
+    encoding:
+      enabled: true
+      charset: utf-8
+      force: true
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181
+  scan:
+    base-packages: com.ylb.front
+  consumer:
+    check: false
+    timeout: 50000
+    retries: 0
+jdwx:
+  sms:
+    url: https://way.jd.com/chuangxin/dxjk
+    appkey: 3680fa919b771148da626bbcbd459475
+    content: 您的验证码是:%s，3分钟内有效，请勿泄露给他人
+    login-text: 登录验证码是:%s，3分钟内有效，请勿泄露给他人
+  realname:
+    url: https://way.jd.com/youhuoBeijing/test
+    appkey: 3680fa919b771148da626bbcbd459475
+jwt:
+  secret: b638690e1a2b441ab432207b522d4640

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.ylb.JwtTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.194 s <<< FAILURE! - in com.ylb.JwtTest
+testReadJwt(com.ylb.JwtTest)  Time elapsed: 1.113 s  <<< ERROR!
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-07-12T03:12:57Z. Current time: 2023-07-14T07:17:34Z, a difference of 187477225 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.ylb.JwtTest.testReadJwt(JwtTest.java:47)
+
